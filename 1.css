@@ -31,6 +31,7 @@ nav.navbar.navbar-expand-sm.navbar-dark.trongsuot{
 .banner{
     margin-top: 200px !important;
 }
+
 a.logo {
 	font-family: 'Roboto Slab', serif;
 	font-size: 26px;
@@ -131,6 +132,10 @@ h4.display-5 {
             padding: 13px 0px !important;
             border-radius: 10px !important;
     }
+        
+    button.navbar-toggler.d-lg-none.collapsed {
+    border: white;
+    }
     /* HẾT BANNER RESPON */
 
 
@@ -225,10 +230,8 @@ svg {
     color: #8da6bd;
 }
 /* end list */
-.noidung7 .col-sm-6 i{
-    padding: 30px 20px 0px 0px;
-   font-size: 30px;
-}
+
+
 .navbar .button_footer{
     background-color:#4a6781;
     border:#4a6781;
@@ -249,10 +252,20 @@ svg {
 .noidung7 .big_form{
     padding-right: 40px;
 }
-.noidung7 .col-sm-6 i {
-    padding: 0px 0px 0px 0px !important;
-    font-size: 21px !important;
+.noidung7 .col-sm-6 .icon i {
+    padding: 33px 18px 0px 0px !important;
+    font-size: 30px !important;
 }
 a.btn.btn-outline-light.btn_lg {
-    padding-right: 95px;
+    width: 300px;
+}
+
+/* footer */
+footer{
+    background-color: #1C2630;
+}
+
+.press-list.list-inline.imgrespo .col-sm-2
+{
+    padding: 0 !important;
 }
